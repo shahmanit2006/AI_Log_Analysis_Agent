@@ -1,0 +1,20 @@
+Hello World
+Application Started Successfully
+INFO
+ERROR
+WARNING
+2026-07-01
+10:30:45
+%%%%%%%
+[] [] []
+Random Text Without Format
+2026.07.01 10:00:00 INFO Login
+2026-07-01 INFO Missing Time
+10:00:00 ERROR Missing Date
+2026/07/01 ERROR Missing Time
+2026-07-01T10:00 INFO Missing Seconds
+[2026-07-01] INFO Missing Time
+Database Connected
+User Login user_id=U1001
+This is definitely not a log entry
+Invalid Token endpoint=/login

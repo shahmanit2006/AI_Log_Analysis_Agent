@@ -1,0 +1,183 @@
+{
+    "file_name": "database.log",
+    "generated_by": "Log Parser Engine",
+    "statistics": {
+        "total_logs": 50,
+        "levels": {
+            "INFO": 30,
+            "WARNING": 10,
+            "ERROR": 10
+        },
+        "line_types": {
+            "application": 50
+        },
+        "unknown_logs": 0,
+        "error_details": [
+            {
+                "date": "2026-06-30",
+                "time": "10:36:38",
+                "message": "Connection Timeout",
+                "fields": {
+                    "query_id": "Q222",
+                    "transaction_id": "TX9779",
+                    "table": "orders",
+                    "database": "customer_db",
+                    "node": "db-node-1",
+                    "execution_time": "1777ms",
+                    "affected_rows": "189",
+                    "retry_count": "3"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:37:28",
+                "message": "Deadlock Detected",
+                "fields": {
+                    "query_id": "Q841",
+                    "transaction_id": "TX9595",
+                    "table": "payments",
+                    "database": "customer_db",
+                    "node": "db-node-1",
+                    "execution_time": "1595ms",
+                    "affected_rows": "75",
+                    "retry_count": "1"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:38:29",
+                "message": "Retry Failed",
+                "fields": {
+                    "query_id": "Q283",
+                    "transaction_id": "TX5952",
+                    "table": "users",
+                    "database": "customer_db",
+                    "node": "db-node-1",
+                    "execution_time": "2252ms",
+                    "affected_rows": "11",
+                    "retry_count": "0"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:39:21",
+                "message": "Connection Timeout",
+                "fields": {
+                    "query_id": "Q814",
+                    "transaction_id": "TX3068",
+                    "table": "sessions",
+                    "database": "customer_db",
+                    "node": "db-node-1",
+                    "execution_time": "105ms",
+                    "affected_rows": "146",
+                    "retry_count": "2"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:40:36",
+                "message": "Deadlock Detected",
+                "fields": {
+                    "query_id": "Q590",
+                    "transaction_id": "TX8216",
+                    "table": "payments",
+                    "database": "customer_db",
+                    "node": "db-node-1",
+                    "execution_time": "425ms",
+                    "affected_rows": "64",
+                    "retry_count": "3"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:41:05",
+                "message": "Connection Timeout",
+                "fields": {
+                    "query_id": "Q941",
+                    "transaction_id": "TX2070",
+                    "table": "sessions",
+                    "database": "customer_db",
+                    "node": "db-node-2",
+                    "execution_time": "611ms",
+                    "affected_rows": "147",
+                    "retry_count": "0"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:41:39",
+                "message": "Deadlock Detected",
+                "fields": {
+                    "query_id": "Q252",
+                    "transaction_id": "TX5978",
+                    "table": "users",
+                    "database": "customer_db",
+                    "node": "db-node-1",
+                    "execution_time": "975ms",
+                    "affected_rows": "142",
+                    "retry_count": "3"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:42:22",
+                "message": "Retry Failed",
+                "fields": {
+                    "query_id": "Q894",
+                    "transaction_id": "TX9561",
+                    "table": "sessions",
+                    "database": "customer_db",
+                    "node": "db-node-2",
+                    "execution_time": "3631ms",
+                    "affected_rows": "76",
+                    "retry_count": "3"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:43:16",
+                "message": "Connection Timeout",
+                "fields": {
+                    "query_id": "Q682",
+                    "transaction_id": "TX1986",
+                    "table": "users",
+                    "database": "customer_db",
+                    "node": "db-node-1",
+                    "execution_time": "1733ms",
+                    "affected_rows": "67",
+                    "retry_count": "0"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:43:51",
+                "message": "Deadlock Detected",
+                "fields": {
+                    "query_id": "Q345",
+                    "transaction_id": "TX3847",
+                    "table": "users",
+                    "database": "customer_db",
+                    "node": "db-node-1",
+                    "execution_time": "26ms",
+                    "affected_rows": "104",
+                    "retry_count": "3"
+                }
+            }
+        ],
+        "unique_errors": [
+            {
+                "message": "Connection Timeout",
+                "count": 4
+            },
+            {
+                "message": "Deadlock Detected",
+                "count": 4
+            },
+            {
+                "message": "Retry Failed",
+                "count": 2
+            }
+        ],
+        "unknown_lines": []
+    }
+}

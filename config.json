@@ -1,0 +1,14 @@
+{
+    "work_dir":"logs",
+    "logs":[
+        "app.log",
+        "database.log",
+        "payment.log"
+    ],
+    
+    "qdrant": {
+    "collection_name": "log_documents",
+    "embedding_dimension": 384
+}
+}
+

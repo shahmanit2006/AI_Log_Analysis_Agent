@@ -1,0 +1,58 @@
+{
+    "file_name": "mixed_logs.log",
+    "generated_by": "Log Parser Engine",
+    "statistics": {
+        "total_logs": 20,
+        "levels": {
+            "INFO": 3,
+            "WARNING": 3,
+            "ERROR": 2,
+            "DEBUG": 2,
+            "CRITICAL": 2
+        },
+        "line_types": {
+            "application": 12
+        },
+        "unknown_logs": 8,
+        "error_details": [
+            {
+                "date": "2026/07/01",
+                "time": "11:02:30",
+                "message": "Failed Authentication",
+                "fields": {
+                    "user_id": "U2002",
+                    "ip": "192.168.1.20"
+                }
+            },
+            {
+                "date": "2026-07-01",
+                "time": "11:07:35",
+                "message": "Internal Server Error",
+                "fields": {
+                    "endpoint": "/checkout",
+                    "request_id": "REQ20002"
+                }
+            }
+        ],
+        "unique_errors": [
+            {
+                "message": "Failed Authentication",
+                "count": 1
+            },
+            {
+                "message": "Internal Server Error",
+                "count": 1
+            }
+        ],
+        "unknown_lines": [
+            "Hello World",
+            "%%%%%%%",
+            "2026-07-01 INFO Missing Time",
+            "Random Text Without Format",
+            "10:15:00 ERROR Missing Date",
+            "Application Started Successfully",
+            "[] [] []",
+            "Invalid Token endpoint=/login"
+        ]
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "file_name": "test_formats.log",
+    "generated_by": "Log Parser Engine",
+    "statistics": {
+        "total_logs": 20,
+        "levels": {
+            "INFO": 4,
+            "WARNING": 4,
+            "ERROR": 4,
+            "DEBUG": 4,
+            "CRITICAL": 4
+        },
+        "line_types": {
+            "application": 20
+        },
+        "unknown_logs": 0,
+        "error_details": [
+            {
+                "date": "2026-07-01",
+                "time": "10:02:10",
+                "message": "Invalid Token",
+                "fields": {
+                    "user_id": "U1002",
+                    "endpoint": "/api/users",
+                    "request_id": "REQ10002"
+                }
+            },
+            {
+                "date": "2026-07-01",
+                "time": "10:07:35",
+                "message": "Payment Failed",
+                "fields": {
+                    "payment_id": "P1001",
+                    "order_id": "O5001"
+                }
+            },
+            {
+                "date": "2026/07/01",
+                "time": "10:12:00",
+                "message": "Failed Authentication",
+                "fields": {
+                    "user_id": "U1005",
+                    "ip": "192.168.1.45"
+                }
+            },
+            {
+                "date": "2026-07-01",
+                "time": "10:17:25",
+                "message": "Internal Server Error",
+                "fields": {
+                    "endpoint": "/checkout",
+                    "request_id": "REQ10003"
+                }
+            }
+        ],
+        "unique_errors": [
+            {
+                "message": "Invalid Token",
+                "count": 1
+            },
+            {
+                "message": "Payment Failed",
+                "count": 1
+            },
+            {
+                "message": "Failed Authentication",
+                "count": 1
+            },
+            {
+                "message": "Internal Server Error",
+                "count": 1
+            }
+        ],
+        "unknown_lines": []
+    }
+}

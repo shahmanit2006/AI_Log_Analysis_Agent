@@ -1,0 +1,50 @@
+2026-06-30 10:00:57 INFO Database Connected query_id=Q128 transaction_id=TX2889 table=payments database=customer_db node=db-node-1 execution_time=4761ms affected_rows=246 retry_count=2
+2026-06-30 10:01:16 INFO Query Executed query_id=Q211 transaction_id=TX8119 table=payments database=customer_db node=db-node-2 execution_time=3579ms affected_rows=155 retry_count=0
+2026-06-30 10:02:20 INFO Insert Successful query_id=Q690 transaction_id=TX4114 table=payments database=customer_db node=db-node-1 execution_time=3577ms affected_rows=0 retry_count=1
+2026-06-30 10:03:21 INFO Update Successful query_id=Q541 transaction_id=TX2146 table=payments database=customer_db node=db-node-2 execution_time=1025ms affected_rows=184 retry_count=2
+2026-06-30 10:04:40 INFO Delete Successful query_id=Q416 transaction_id=TX7691 table=payments database=customer_db node=db-node-2 execution_time=2427ms affected_rows=141 retry_count=1
+2026-06-30 10:05:19 INFO Transaction Started query_id=Q530 transaction_id=TX7211 table=orders database=customer_db node=db-node-2 execution_time=3331ms affected_rows=140 retry_count=0
+2026-06-30 10:06:12 INFO Transaction Committed query_id=Q393 transaction_id=TX4443 table=sessions database=customer_db node=db-node-2 execution_time=3814ms affected_rows=113 retry_count=3
+2026-06-30 10:06:54 INFO Connection Restored query_id=Q623 transaction_id=TX8752 table=orders database=customer_db node=db-node-1 execution_time=2329ms affected_rows=131 retry_count=2
+2026-06-30 10:07:20 INFO Read Replica Selected query_id=Q938 transaction_id=TX4848 table=payments database=customer_db node=db-node-1 execution_time=1636ms affected_rows=37 retry_count=0
+2026-06-30 10:07:40 INFO Index Rebuilt query_id=Q350 transaction_id=TX8784 table=users database=customer_db node=db-node-2 execution_time=3400ms affected_rows=226 retry_count=1
+2026-06-30 10:08:44 INFO Backup Started query_id=Q606 transaction_id=TX7547 table=orders database=customer_db node=db-node-1 execution_time=50ms affected_rows=228 retry_count=0
+2026-06-30 10:09:53 INFO Backup Completed query_id=Q324 transaction_id=TX3881 table=sessions database=customer_db node=db-node-1 execution_time=4571ms affected_rows=63 retry_count=0
+2026-06-30 10:11:06 INFO Database Disconnected query_id=Q236 transaction_id=TX8612 table=payments database=customer_db node=db-node-2 execution_time=4140ms affected_rows=109 retry_count=3
+2026-06-30 10:11:41 INFO Database Connected query_id=Q861 transaction_id=TX8777 table=sessions database=customer_db node=db-node-2 execution_time=2030ms affected_rows=215 retry_count=2
+2026-06-30 10:12:58 INFO Query Executed query_id=Q741 transaction_id=TX4919 table=payments database=customer_db node=db-node-2 execution_time=639ms affected_rows=182 retry_count=2
+2026-06-30 10:13:43 INFO Insert Successful query_id=Q378 transaction_id=TX6502 table=payments database=customer_db node=db-node-1 execution_time=1138ms affected_rows=38 retry_count=1
+2026-06-30 10:14:47 INFO Update Successful query_id=Q810 transaction_id=TX3503 table=orders database=customer_db node=db-node-1 execution_time=3403ms affected_rows=104 retry_count=2
+2026-06-30 10:16:01 INFO Delete Successful query_id=Q525 transaction_id=TX2020 table=orders database=customer_db node=db-node-2 execution_time=3195ms affected_rows=231 retry_count=0
+2026-06-30 10:17:04 INFO Transaction Started query_id=Q588 transaction_id=TX1096 table=payments database=customer_db node=db-node-2 execution_time=3199ms affected_rows=218 retry_count=3
+2026-06-30 10:17:47 INFO Transaction Committed query_id=Q599 transaction_id=TX4595 table=payments database=customer_db node=db-node-2 execution_time=3983ms affected_rows=7 retry_count=3
+2026-06-30 10:18:45 INFO Connection Restored query_id=Q784 transaction_id=TX7624 table=orders database=customer_db node=db-node-2 execution_time=1050ms affected_rows=159 retry_count=0
+2026-06-30 10:19:50 INFO Read Replica Selected query_id=Q706 transaction_id=TX1444 table=users database=customer_db node=db-node-2 execution_time=1116ms affected_rows=221 retry_count=3
+2026-06-30 10:20:28 INFO Index Rebuilt query_id=Q151 transaction_id=TX5262 table=sessions database=customer_db node=db-node-2 execution_time=1738ms affected_rows=116 retry_count=2
+2026-06-30 10:21:26 INFO Backup Started query_id=Q879 transaction_id=TX7211 table=payments database=customer_db node=db-node-2 execution_time=2071ms affected_rows=213 retry_count=0
+2026-06-30 10:22:41 INFO Backup Completed query_id=Q119 transaction_id=TX9837 table=users database=customer_db node=db-node-2 execution_time=1841ms affected_rows=166 retry_count=0
+2026-06-30 10:23:01 INFO Database Disconnected query_id=Q872 transaction_id=TX1508 table=orders database=customer_db node=db-node-1 execution_time=171ms affected_rows=159 retry_count=1
+2026-06-30 10:23:46 INFO Database Connected query_id=Q229 transaction_id=TX8758 table=users database=customer_db node=db-node-1 execution_time=3814ms affected_rows=179 retry_count=2
+2026-06-30 10:24:48 INFO Query Executed query_id=Q271 transaction_id=TX2876 table=orders database=customer_db node=db-node-2 execution_time=890ms affected_rows=148 retry_count=0
+2026-06-30 10:25:42 INFO Insert Successful query_id=Q689 transaction_id=TX7149 table=sessions database=customer_db node=db-node-1 execution_time=627ms affected_rows=151 retry_count=1
+2026-06-30 10:26:10 INFO Update Successful query_id=Q813 transaction_id=TX5941 table=users database=customer_db node=db-node-1 execution_time=2849ms affected_rows=136 retry_count=3
+2026-06-30 10:27:12 WARNING Slow Query query_id=Q170 transaction_id=TX9289 table=payments database=customer_db node=db-node-1 execution_time=3446ms affected_rows=210 retry_count=3
+2026-06-30 10:27:40 WARNING Transaction Rolled Back query_id=Q543 transaction_id=TX6934 table=sessions database=customer_db node=db-node-1 execution_time=3572ms affected_rows=45 retry_count=2
+2026-06-30 10:28:56 WARNING Slow Query query_id=Q576 transaction_id=TX8136 table=payments database=customer_db node=db-node-2 execution_time=2016ms affected_rows=212 retry_count=0
+2026-06-30 10:29:46 WARNING Backup Started query_id=Q561 transaction_id=TX4995 table=sessions database=customer_db node=db-node-2 execution_time=2760ms affected_rows=7 retry_count=3
+2026-06-30 10:30:42 WARNING Read Replica Selected query_id=Q286 transaction_id=TX8988 table=orders database=customer_db node=db-node-2 execution_time=2121ms affected_rows=87 retry_count=2
+2026-06-30 10:31:32 WARNING Slow Query query_id=Q669 transaction_id=TX1166 table=orders database=customer_db node=db-node-1 execution_time=1982ms affected_rows=184 retry_count=3
+2026-06-30 10:32:49 WARNING Transaction Rolled Back query_id=Q668 transaction_id=TX4937 table=sessions database=customer_db node=db-node-2 execution_time=3676ms affected_rows=202 retry_count=0
+2026-06-30 10:33:15 WARNING Slow Query query_id=Q401 transaction_id=TX4630 table=sessions database=customer_db node=db-node-1 execution_time=2513ms affected_rows=169 retry_count=2
+2026-06-30 10:34:30 WARNING Backup Started query_id=Q666 transaction_id=TX9698 table=payments database=customer_db node=db-node-2 execution_time=4513ms affected_rows=84 retry_count=2
+2026-06-30 10:35:43 WARNING Read Replica Selected query_id=Q377 transaction_id=TX6023 table=payments database=customer_db node=db-node-1 execution_time=993ms affected_rows=184 retry_count=1
+2026-06-30 10:36:38 ERROR Connection Timeout query_id=Q222 transaction_id=TX9779 table=orders database=customer_db node=db-node-1 execution_time=1777ms affected_rows=189 retry_count=3
+2026-06-30 10:37:28 ERROR Deadlock Detected query_id=Q841 transaction_id=TX9595 table=payments database=customer_db node=db-node-1 execution_time=1595ms affected_rows=75 retry_count=1
+2026-06-30 10:38:29 ERROR Retry Failed query_id=Q283 transaction_id=TX5952 table=users database=customer_db node=db-node-1 execution_time=2252ms affected_rows=11 retry_count=0
+2026-06-30 10:39:21 ERROR Connection Timeout query_id=Q814 transaction_id=TX3068 table=sessions database=customer_db node=db-node-1 execution_time=105ms affected_rows=146 retry_count=2
+2026-06-30 10:40:36 ERROR Deadlock Detected query_id=Q590 transaction_id=TX8216 table=payments database=customer_db node=db-node-1 execution_time=425ms affected_rows=64 retry_count=3
+2026-06-30 10:41:05 ERROR Connection Timeout query_id=Q941 transaction_id=TX2070 table=sessions database=customer_db node=db-node-2 execution_time=611ms affected_rows=147 retry_count=0
+2026-06-30 10:41:39 ERROR Deadlock Detected query_id=Q252 transaction_id=TX5978 table=users database=customer_db node=db-node-1 execution_time=975ms affected_rows=142 retry_count=3
+2026-06-30 10:42:22 ERROR Retry Failed query_id=Q894 transaction_id=TX9561 table=sessions database=customer_db node=db-node-2 execution_time=3631ms affected_rows=76 retry_count=3
+2026-06-30 10:43:16 ERROR Connection Timeout query_id=Q682 transaction_id=TX1986 table=users database=customer_db node=db-node-1 execution_time=1733ms affected_rows=67 retry_count=0
+2026-06-30 10:43:51 ERROR Deadlock Detected query_id=Q345 transaction_id=TX3847 table=users database=customer_db node=db-node-1 execution_time=26ms affected_rows=104 retry_count=3

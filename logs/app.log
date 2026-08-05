@@ -1,0 +1,50 @@
+2026-06-30 10:00:34 INFO Application Started user_id=U1026 request_id=REQ10760 session_id=S5282 ip=192.168.1.64 endpoint=/dashboard method=GET status=200 latency=859ms memory=78% cpu=79%
+2026-06-30 10:01:05 INFO Configuration Loaded user_id=U1605 request_id=REQ10433 session_id=S5033 ip=192.168.1.9 endpoint=/login method=GET status=200 latency=1925ms memory=67% cpu=87%
+2026-06-30 10:01:28 INFO User Login user_id=U1575 request_id=REQ10204 session_id=S5734 ip=192.168.1.168 endpoint=/api/users method=GET status=200 latency=3699ms memory=72% cpu=45%
+2026-06-30 10:01:48 INFO API Request user_id=U1778 request_id=REQ10826 session_id=S5164 ip=192.168.1.180 endpoint=/api/users method=POST status=200 latency=2296ms memory=44% cpu=37%
+2026-06-30 10:02:51 INFO API Response user_id=U1105 request_id=REQ10095 session_id=S5390 ip=192.168.1.26 endpoint=/api/orders method=POST status=200 latency=4965ms memory=51% cpu=15%
+2026-06-30 10:04:09 INFO Dashboard Loaded user_id=U1550 request_id=REQ10128 session_id=S5997 ip=192.168.1.238 endpoint=/api/users method=GET status=200 latency=4542ms memory=53% cpu=90%
+2026-06-30 10:05:15 INFO Session Created user_id=U1592 request_id=REQ10197 session_id=S5722 ip=192.168.1.19 endpoint=/login method=GET status=200 latency=2390ms memory=40% cpu=39%
+2026-06-30 10:05:47 INFO Cache Updated user_id=U1390 request_id=REQ10285 session_id=S5465 ip=192.168.1.164 endpoint=/api/orders method=GET status=200 latency=3052ms memory=57% cpu=36%
+2026-06-30 10:06:41 INFO Background Job Started user_id=U1719 request_id=REQ10960 session_id=S5700 ip=192.168.1.167 endpoint=/login method=GET status=200 latency=4395ms memory=81% cpu=41%
+2026-06-30 10:07:21 INFO Background Job Completed user_id=U1474 request_id=REQ10389 session_id=S5277 ip=192.168.1.238 endpoint=/dashboard method=POST status=200 latency=478ms memory=49% cpu=14%
+2026-06-30 10:08:21 INFO Scheduled Task Executed user_id=U1411 request_id=REQ10275 session_id=S5068 ip=192.168.1.56 endpoint=/api/orders method=GET status=200 latency=4109ms memory=60% cpu=92%
+2026-06-30 10:09:39 INFO User Logout user_id=U1147 request_id=REQ10272 session_id=S5143 ip=192.168.1.65 endpoint=/api/orders method=POST status=200 latency=4800ms memory=60% cpu=56%
+2026-06-30 10:10:27 INFO Service Restarted user_id=U1142 request_id=REQ10522 session_id=S5506 ip=192.168.1.25 endpoint=/login method=GET status=200 latency=1272ms memory=75% cpu=30%
+2026-06-30 10:11:41 INFO Dashboard Loaded user_id=U1611 request_id=REQ10066 session_id=S5395 ip=192.168.1.99 endpoint=/api/users method=POST status=200 latency=4552ms memory=90% cpu=11%
+2026-06-30 10:12:15 INFO API Request user_id=U1699 request_id=REQ10907 session_id=S5550 ip=192.168.1.194 endpoint=/api/orders method=POST status=200 latency=933ms memory=53% cpu=65%
+2026-06-30 10:12:55 INFO Application Started user_id=U1465 request_id=REQ10004 session_id=S5977 ip=192.168.1.186 endpoint=/api/orders method=GET status=200 latency=4178ms memory=93% cpu=23%
+2026-06-30 10:13:53 INFO Configuration Loaded user_id=U1862 request_id=REQ10655 session_id=S5520 ip=192.168.1.157 endpoint=/dashboard method=GET status=200 latency=3083ms memory=83% cpu=30%
+2026-06-30 10:15:22 INFO User Login user_id=U1977 request_id=REQ10798 session_id=S5945 ip=192.168.1.137 endpoint=/login method=POST status=200 latency=4022ms memory=36% cpu=24%
+2026-06-30 10:16:28 INFO API Request user_id=U1900 request_id=REQ10852 session_id=S5827 ip=192.168.1.80 endpoint=/dashboard method=GET status=200 latency=1993ms memory=91% cpu=82%
+2026-06-30 10:16:58 INFO API Response user_id=U1088 request_id=REQ10750 session_id=S5498 ip=192.168.1.210 endpoint=/login method=GET status=200 latency=1071ms memory=77% cpu=70%
+2026-06-30 10:18:28 INFO Dashboard Loaded user_id=U1170 request_id=REQ10272 session_id=S5541 ip=192.168.1.225 endpoint=/api/users method=GET status=200 latency=4437ms memory=83% cpu=98%
+2026-06-30 10:19:13 INFO Session Created user_id=U1731 request_id=REQ10320 session_id=S5409 ip=192.168.1.173 endpoint=/api/orders method=POST status=200 latency=4259ms memory=63% cpu=25%
+2026-06-30 10:20:04 INFO Cache Updated user_id=U1231 request_id=REQ10066 session_id=S5347 ip=192.168.1.7 endpoint=/dashboard method=GET status=200 latency=78ms memory=39% cpu=90%
+2026-06-30 10:20:31 INFO Background Job Started user_id=U1235 request_id=REQ10070 session_id=S5928 ip=192.168.1.10 endpoint=/api/orders method=GET status=200 latency=4231ms memory=50% cpu=45%
+2026-06-30 10:21:53 INFO Background Job Completed user_id=U1220 request_id=REQ10553 session_id=S5136 ip=192.168.1.187 endpoint=/api/users method=GET status=200 latency=3894ms memory=86% cpu=62%
+2026-06-30 10:22:37 INFO Scheduled Task Executed user_id=U1097 request_id=REQ10100 session_id=S5675 ip=192.168.1.112 endpoint=/api/orders method=POST status=200 latency=3387ms memory=64% cpu=16%
+2026-06-30 10:23:09 INFO User Logout user_id=U1063 request_id=REQ10413 session_id=S5746 ip=192.168.1.88 endpoint=/login method=GET status=200 latency=1589ms memory=47% cpu=78%
+2026-06-30 10:24:26 INFO Service Restarted user_id=U1144 request_id=REQ10433 session_id=S5188 ip=192.168.1.73 endpoint=/api/users method=GET status=200 latency=637ms memory=63% cpu=80%
+2026-06-30 10:24:58 INFO Dashboard Loaded user_id=U1052 request_id=REQ10668 session_id=S5554 ip=192.168.1.216 endpoint=/login method=GET status=200 latency=1956ms memory=45% cpu=62%
+2026-06-30 10:26:20 INFO API Request user_id=U1493 request_id=REQ10219 session_id=S5886 ip=192.168.1.104 endpoint=/login method=GET status=200 latency=3124ms memory=35% cpu=59%
+2026-06-30 10:27:13 WARNING High Memory Usage user_id=U1949 request_id=REQ10803 session_id=S5804 ip=192.168.1.118 endpoint=/api/orders method=POST status=429 latency=4572ms memory=77% cpu=72%
+2026-06-30 10:27:52 WARNING High CPU Usage user_id=U1195 request_id=REQ10304 session_id=S5223 ip=192.168.1.249 endpoint=/login method=GET status=429 latency=2589ms memory=38% cpu=16%
+2026-06-30 10:29:13 WARNING Session Expired user_id=U1515 request_id=REQ10942 session_id=S5874 ip=192.168.1.137 endpoint=/dashboard method=GET status=429 latency=4180ms memory=40% cpu=33%
+2026-06-30 10:29:41 WARNING Cache Updated user_id=U1610 request_id=REQ10070 session_id=S5692 ip=192.168.1.222 endpoint=/dashboard method=POST status=429 latency=1002ms memory=95% cpu=82%
+2026-06-30 10:30:32 WARNING High Memory Usage user_id=U1593 request_id=REQ10609 session_id=S5041 ip=192.168.1.160 endpoint=/login method=POST status=429 latency=4801ms memory=71% cpu=76%
+2026-06-30 10:31:32 WARNING High Memory Usage user_id=U1958 request_id=REQ10268 session_id=S5210 ip=192.168.1.173 endpoint=/api/orders method=GET status=429 latency=2195ms memory=60% cpu=26%
+2026-06-30 10:32:30 WARNING High CPU Usage user_id=U1469 request_id=REQ10324 session_id=S5952 ip=192.168.1.194 endpoint=/login method=GET status=429 latency=3774ms memory=74% cpu=82%
+2026-06-30 10:33:02 WARNING Session Expired user_id=U1076 request_id=REQ10551 session_id=S5219 ip=192.168.1.131 endpoint=/api/orders method=GET status=429 latency=2879ms memory=91% cpu=18%
+2026-06-30 10:33:53 WARNING Cache Updated user_id=U1379 request_id=REQ10292 session_id=S5162 ip=192.168.1.114 endpoint=/api/orders method=GET status=429 latency=4563ms memory=54% cpu=94%
+2026-06-30 10:34:26 WARNING High Memory Usage user_id=U1962 request_id=REQ10900 session_id=S5138 ip=192.168.1.69 endpoint=/login method=GET status=429 latency=4552ms memory=44% cpu=44%
+2026-06-30 10:35:22 ERROR Internal Server Error user_id=U1620 request_id=REQ10216 session_id=S5735 ip=192.168.1.89 endpoint=/dashboard method=POST status=500 latency=4160ms memory=66% cpu=42%
+2026-06-30 10:35:48 ERROR Failed Authentication user_id=U1095 request_id=REQ10650 session_id=S5434 ip=192.168.1.214 endpoint=/api/orders method=GET status=401 latency=49ms memory=56% cpu=26%
+2026-06-30 10:36:41 ERROR Invalid Token user_id=U1166 request_id=REQ10760 session_id=S5453 ip=192.168.1.143 endpoint=/api/users method=GET status=401 latency=936ms memory=39% cpu=98%
+2026-06-30 10:37:20 ERROR Internal Server Error user_id=U1559 request_id=REQ10037 session_id=S5855 ip=192.168.1.96 endpoint=/dashboard method=POST status=500 latency=1064ms memory=37% cpu=49%
+2026-06-30 10:38:26 ERROR Failed Authentication user_id=U1921 request_id=REQ10956 session_id=S5816 ip=192.168.1.250 endpoint=/login method=POST status=401 latency=1740ms memory=78% cpu=41%
+2026-06-30 10:38:59 ERROR Internal Server Error user_id=U1363 request_id=REQ10799 session_id=S5574 ip=192.168.1.228 endpoint=/api/users method=GET status=500 latency=1959ms memory=90% cpu=30%
+2026-06-30 10:39:41 ERROR Failed Authentication user_id=U1903 request_id=REQ10423 session_id=S5026 ip=192.168.1.47 endpoint=/api/orders method=POST status=401 latency=2052ms memory=52% cpu=30%
+2026-06-30 10:40:14 ERROR Invalid Token user_id=U1392 request_id=REQ10894 session_id=S5040 ip=192.168.1.221 endpoint=/api/users method=GET status=401 latency=1654ms memory=87% cpu=68%
+2026-06-30 10:41:18 ERROR Internal Server Error user_id=U1313 request_id=REQ10841 session_id=S5815 ip=192.168.1.225 endpoint=/dashboard method=GET status=500 latency=213ms memory=77% cpu=34%
+2026-06-30 10:42:29 ERROR Failed Authentication user_id=U1337 request_id=REQ10286 session_id=S5886 ip=192.168.1.19 endpoint=/api/orders method=POST status=401 latency=4193ms memory=60% cpu=96%

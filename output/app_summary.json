@@ -1,0 +1,203 @@
+{
+    "file_name": "app.log",
+    "generated_by": "Log Parser Engine",
+    "statistics": {
+        "total_logs": 50,
+        "levels": {
+            "INFO": 30,
+            "WARNING": 10,
+            "ERROR": 10
+        },
+        "line_types": {
+            "application": 50
+        },
+        "unknown_logs": 0,
+        "error_details": [
+            {
+                "date": "2026-06-30",
+                "time": "10:35:22",
+                "message": "Internal Server Error",
+                "fields": {
+                    "user_id": "U1620",
+                    "request_id": "REQ10216",
+                    "session_id": "S5735",
+                    "ip": "192.168.1.89",
+                    "endpoint": "/dashboard",
+                    "method": "POST",
+                    "status": "500",
+                    "latency": "4160ms",
+                    "memory": "66%",
+                    "cpu": "42%"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:35:48",
+                "message": "Failed Authentication",
+                "fields": {
+                    "user_id": "U1095",
+                    "request_id": "REQ10650",
+                    "session_id": "S5434",
+                    "ip": "192.168.1.214",
+                    "endpoint": "/api/orders",
+                    "method": "GET",
+                    "status": "401",
+                    "latency": "49ms",
+                    "memory": "56%",
+                    "cpu": "26%"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:36:41",
+                "message": "Invalid Token",
+                "fields": {
+                    "user_id": "U1166",
+                    "request_id": "REQ10760",
+                    "session_id": "S5453",
+                    "ip": "192.168.1.143",
+                    "endpoint": "/api/users",
+                    "method": "GET",
+                    "status": "401",
+                    "latency": "936ms",
+                    "memory": "39%",
+                    "cpu": "98%"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:37:20",
+                "message": "Internal Server Error",
+                "fields": {
+                    "user_id": "U1559",
+                    "request_id": "REQ10037",
+                    "session_id": "S5855",
+                    "ip": "192.168.1.96",
+                    "endpoint": "/dashboard",
+                    "method": "POST",
+                    "status": "500",
+                    "latency": "1064ms",
+                    "memory": "37%",
+                    "cpu": "49%"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:38:26",
+                "message": "Failed Authentication",
+                "fields": {
+                    "user_id": "U1921",
+                    "request_id": "REQ10956",
+                    "session_id": "S5816",
+                    "ip": "192.168.1.250",
+                    "endpoint": "/login",
+                    "method": "POST",
+                    "status": "401",
+                    "latency": "1740ms",
+                    "memory": "78%",
+                    "cpu": "41%"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:38:59",
+                "message": "Internal Server Error",
+                "fields": {
+                    "user_id": "U1363",
+                    "request_id": "REQ10799",
+                    "session_id": "S5574",
+                    "ip": "192.168.1.228",
+                    "endpoint": "/api/users",
+                    "method": "GET",
+                    "status": "500",
+                    "latency": "1959ms",
+                    "memory": "90%",
+                    "cpu": "30%"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:39:41",
+                "message": "Failed Authentication",
+                "fields": {
+                    "user_id": "U1903",
+                    "request_id": "REQ10423",
+                    "session_id": "S5026",
+                    "ip": "192.168.1.47",
+                    "endpoint": "/api/orders",
+                    "method": "POST",
+                    "status": "401",
+                    "latency": "2052ms",
+                    "memory": "52%",
+                    "cpu": "30%"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:40:14",
+                "message": "Invalid Token",
+                "fields": {
+                    "user_id": "U1392",
+                    "request_id": "REQ10894",
+                    "session_id": "S5040",
+                    "ip": "192.168.1.221",
+                    "endpoint": "/api/users",
+                    "method": "GET",
+                    "status": "401",
+                    "latency": "1654ms",
+                    "memory": "87%",
+                    "cpu": "68%"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:41:18",
+                "message": "Internal Server Error",
+                "fields": {
+                    "user_id": "U1313",
+                    "request_id": "REQ10841",
+                    "session_id": "S5815",
+                    "ip": "192.168.1.225",
+                    "endpoint": "/dashboard",
+                    "method": "GET",
+                    "status": "500",
+                    "latency": "213ms",
+                    "memory": "77%",
+                    "cpu": "34%"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:42:29",
+                "message": "Failed Authentication",
+                "fields": {
+                    "user_id": "U1337",
+                    "request_id": "REQ10286",
+                    "session_id": "S5886",
+                    "ip": "192.168.1.19",
+                    "endpoint": "/api/orders",
+                    "method": "POST",
+                    "status": "401",
+                    "latency": "4193ms",
+                    "memory": "60%",
+                    "cpu": "96%"
+                }
+            }
+        ],
+        "unique_errors": [
+            {
+                "message": "Internal Server Error",
+                "count": 4
+            },
+            {
+                "message": "Failed Authentication",
+                "count": 4
+            },
+            {
+                "message": "Invalid Token",
+                "count": 2
+            }
+        ],
+        "unknown_lines": []
+    }
+}

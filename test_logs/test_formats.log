@@ -1,0 +1,20 @@
+2026-07-01 10:00:01 INFO Application Started user_id=U1001 request_id=REQ10001 endpoint=/login latency=120ms
+2026-07-01 10:01:05 WARNING High Memory Usage memory=85% server=APP01
+2026-07-01 10:02:10 ERROR Invalid Token user_id=U1002 endpoint=/api/users request_id=REQ10002
+2026-07-01 10:03:15 DEBUG Cache Refreshed cache=Redis duration=25ms
+2026-07-01 10:04:20 CRITICAL Database Connection Lost database=MainDB node=DB01
+[2026-07-01 10:05:25] INFO User Login user_id=U1003 session_id=S1001
+[2026-07-01 10:06:30] WARNING Slow API Response endpoint=/payment latency=3200ms
+[2026-07-01 10:07:35] ERROR Payment Failed payment_id=P1001 order_id=O5001
+[2026-07-01 10:08:40] DEBUG Background Job Started job=Cleanup
+[2026-07-01 10:09:45] CRITICAL Service Unavailable service=PaymentAPI
+2026/07/01 10:10:50 INFO Dashboard Loaded user_id=U1004
+2026/07/01 10:11:55 WARNING Disk Space Low disk=C: usage=92%
+2026/07/01 10:12:00 ERROR Failed Authentication user_id=U1005 ip=192.168.1.45
+2026/07/01 10:13:05 DEBUG Session Created session_id=S1002
+2026/07/01 10:14:10 CRITICAL Payment Gateway Timeout gateway=Stripe
+2026-07-01T10:15:15Z INFO API Response endpoint=/orders status=200
+2026-07-01T10:16:20Z WARNING CPU Usage High cpu=94%
+2026-07-01T10:17:25Z ERROR Internal Server Error endpoint=/checkout request_id=REQ10003
+2026-07-01T10:18:30Z DEBUG Configuration Reloaded module=Auth
+2026-07-01T10:19:35Z CRITICAL System Shutdown reason=PowerFailure

@@ -1,0 +1,45 @@
+# ===========================
+# Python Cache
+# ===========================
+__pycache__/
+*.py[cod]
+
+# ===========================
+# Virtual Environment
+# ===========================
+venv/
+.venv/
+env/
+
+# ===========================
+# VS Code Settings
+# ===========================
+.vscode/
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+
+# ===========================
+# Generated Qdrant Database
+# ===========================
+vector_db/qdrant_data/
+
+# ===========================
+# Generated embedding file(size max 100MB available in the repo but it's size is more)
+# ===========================
+embeddings/embeddings.json
+knowledge_base/knowledge_base.json
+
+# ===========================
+# Operating System Files
+# ===========================
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ===========================
+# Jupyter Notebook
+# ===========================
+.ipynb_checkpoints/

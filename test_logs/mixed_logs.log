@@ -1,0 +1,20 @@
+2026-07-01 11:00:01 INFO Application Started user_id=U2001 request_id=REQ20001
+Hello World
+[2026-07-01 11:01:15] WARNING High Memory Usage memory=87%
+2026/07/01 11:02:30 ERROR Failed Authentication user_id=U2002 ip=192.168.1.20
+%%%%%%%
+2026-07-01T11:03:45Z DEBUG Cache Refreshed cache=Redis
+2026-07-01 INFO Missing Time
+2026-07-01 11:04:50 CRITICAL Database Connection Lost database=MainDB
+Random Text Without Format
+[2026-07-01 11:05:55] INFO User Login user_id=U2003
+2026/07/01 11:06:20 WARNING Disk Space Low disk=C: usage=91%
+10:15:00 ERROR Missing Date
+2026-07-01T11:07:35Z ERROR Internal Server Error endpoint=/checkout request_id=REQ20002
+Application Started Successfully
+2026-07-01 11:08:40 DEBUG Background Job Started job=Cleanup
+[] [] []
+[2026-07-01 11:09:45] CRITICAL Service Unavailable service=PaymentAPI
+2026/07/01 11:10:50 INFO Dashboard Loaded user_id=U2004
+Invalid Token endpoint=/login
+2026-07-01T11:11:55Z WARNING CPU Usage High cpu=95%

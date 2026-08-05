@@ -1,0 +1,197 @@
+{
+    "file_name": "payment.log",
+    "generated_by": "Log Parser Engine",
+    "statistics": {
+        "total_logs": 50,
+        "levels": {
+            "INFO": 30,
+            "WARNING": 10,
+            "ERROR": 10
+        },
+        "line_types": {
+            "application": 50
+        },
+        "unknown_logs": 0,
+        "error_details": [
+            {
+                "date": "2026-06-30",
+                "time": "10:42:37",
+                "message": "Payment Gateway Timeout",
+                "fields": {
+                    "payment_id": "PAY26011",
+                    "order_id": "ORD79600",
+                    "customer_id": "C2501",
+                    "transaction_id": "TX4475",
+                    "amount": "4991.00",
+                    "currency": "INR",
+                    "gateway": "Stripe",
+                    "authorization_code": "AUTH1828",
+                    "latency": "6495ms"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:43:44",
+                "message": "Card Declined",
+                "fields": {
+                    "payment_id": "PAY41925",
+                    "order_id": "ORD36505",
+                    "customer_id": "C4362",
+                    "transaction_id": "TX2124",
+                    "amount": "4640.00",
+                    "currency": "INR",
+                    "gateway": "Stripe",
+                    "authorization_code": "AUTH4538",
+                    "latency": "6710ms"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:44:38",
+                "message": "Payment Failed",
+                "fields": {
+                    "payment_id": "PAY53064",
+                    "order_id": "ORD39340",
+                    "customer_id": "C1046",
+                    "transaction_id": "TX5542",
+                    "amount": "1285.00",
+                    "currency": "INR",
+                    "gateway": "Stripe",
+                    "authorization_code": "AUTH9850",
+                    "latency": "2103ms"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:45:25",
+                "message": "Invalid CVV",
+                "fields": {
+                    "payment_id": "PAY24408",
+                    "order_id": "ORD23379",
+                    "customer_id": "C3159",
+                    "transaction_id": "TX1243",
+                    "amount": "3034.00",
+                    "currency": "INR",
+                    "gateway": "Stripe",
+                    "authorization_code": "AUTH6304",
+                    "latency": "179ms"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:46:12",
+                "message": "Payment Gateway Timeout",
+                "fields": {
+                    "payment_id": "PAY44782",
+                    "order_id": "ORD26868",
+                    "customer_id": "C3076",
+                    "transaction_id": "TX7897",
+                    "amount": "4409.00",
+                    "currency": "INR",
+                    "gateway": "Stripe",
+                    "authorization_code": "AUTH2041",
+                    "latency": "3951ms"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:47:34",
+                "message": "Payment Gateway Timeout",
+                "fields": {
+                    "payment_id": "PAY57453",
+                    "order_id": "ORD87271",
+                    "customer_id": "C2786",
+                    "transaction_id": "TX8405",
+                    "amount": "4227.00",
+                    "currency": "INR",
+                    "gateway": "Stripe",
+                    "authorization_code": "AUTH1710",
+                    "latency": "6007ms"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:49:05",
+                "message": "Card Declined",
+                "fields": {
+                    "payment_id": "PAY49535",
+                    "order_id": "ORD80036",
+                    "customer_id": "C1510",
+                    "transaction_id": "TX1996",
+                    "amount": "4023.00",
+                    "currency": "INR",
+                    "gateway": "Razorpay",
+                    "authorization_code": "AUTH7984",
+                    "latency": "5670ms"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:49:43",
+                "message": "Payment Failed",
+                "fields": {
+                    "payment_id": "PAY74260",
+                    "order_id": "ORD78138",
+                    "customer_id": "C2204",
+                    "transaction_id": "TX2323",
+                    "amount": "2738.00",
+                    "currency": "INR",
+                    "gateway": "Stripe",
+                    "authorization_code": "AUTH2076",
+                    "latency": "1083ms"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:50:43",
+                "message": "Invalid CVV",
+                "fields": {
+                    "payment_id": "PAY91830",
+                    "order_id": "ORD96724",
+                    "customer_id": "C9984",
+                    "transaction_id": "TX6327",
+                    "amount": "3220.00",
+                    "currency": "INR",
+                    "gateway": "Razorpay",
+                    "authorization_code": "AUTH8433",
+                    "latency": "4191ms"
+                }
+            },
+            {
+                "date": "2026-06-30",
+                "time": "10:52:03",
+                "message": "Payment Gateway Timeout",
+                "fields": {
+                    "payment_id": "PAY22999",
+                    "order_id": "ORD34996",
+                    "customer_id": "C4522",
+                    "transaction_id": "TX8046",
+                    "amount": "3799.00",
+                    "currency": "INR",
+                    "gateway": "Stripe",
+                    "authorization_code": "AUTH7779",
+                    "latency": "2826ms"
+                }
+            }
+        ],
+        "unique_errors": [
+            {
+                "message": "Payment Gateway Timeout",
+                "count": 4
+            },
+            {
+                "message": "Card Declined",
+                "count": 2
+            },
+            {
+                "message": "Payment Failed",
+                "count": 2
+            },
+            {
+                "message": "Invalid CVV",
+                "count": 2
+            }
+        ],
+        "unknown_lines": []
+    }
+}
