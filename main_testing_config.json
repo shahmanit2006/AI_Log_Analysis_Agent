@@ -1,0 +1,14 @@
+{
+    "work_dir": "test_logs",
+    "logs": [
+        "main_testing_logs.log"
+    ],
+    "qdrant": {
+        "collection_name": "log_documents",
+        "embedding_dimension": 384
+    },
+    "llm": {
+        "provider": "ollama",
+        "model": "llama3.2"
+    }
+}
